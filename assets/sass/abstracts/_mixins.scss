@@ -1,0 +1,5 @@
+@mixin skill__i--color($name, $color) {
+    .skill__i--#{$name} {
+        color: $color;
+    }
+}

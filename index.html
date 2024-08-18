@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peter Parker</title>
+    <link rel="shortcut icon" href="./assets/img/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg bg-body fixed-top">
+            <div class="container">
+                <a class="navbar-brand text-primary fw-bold header__title" href="#">Peter Parker</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link header__li" href="#habilidades">Mis habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link header__li" href="#proyectos">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link header__li" href="#contacto">Contacto</a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="hero col-12 col-lg-8 m-auto container my-5 pt-5">
+            <div class="row align-items-center gap-4 gap-lg-2">
+                <section class="hero__container-one col-12 col-lg">
+                    <img src="./assets/img/developer.svg" alt="Foto perfil de Peter Parker" class="hero__img">
+                </section>
+                <section class="hero__container-two col-12 col-lg d-flex align-items-center">
+                    <div class="hero__content">
+                        <h1 class="hero__title text-primary">Soy Peter Parker</h1>
+                        <h2 class="hero__subtitle text-secondary">Desarrollador FrontEnd</h2>
+                        <p class="hero__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta blanditiis eligendi ipsa quos reiciendis! Excepturi consecquatur dolorem laudantium eaque corrupti, voluptatum beatae suscipit in, sed natus accusantium unde ipsum.</p>
+                        <div id="habilidades"></div>
+                        <button type="button" class="btn btn-primary btn-lg hero__button col-12 col-lg-5">Contáctame</button>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </header>
+        <main class="main px-1">
+            <section class="skill d-flex flex-column justify-content-center align-items-center mt-5 mb-4">
+                <h2 class="title--h2">Mis habilidades</h2>                
+                <div class="container col-12 col-lg-8 skill__container mt-5">
+                    <div class="row skill__intercontainer">
+                        <div class="skill__subcontainer d-flex gap-2 align-items-baseline col-6 col-lg">
+                            <i class="fa-brands fa-html5 skill__i skill__i--html"></i>
+                            <p class="skill__p">HTML</p>
+                        </div>
+                        <div class="skill__subcontainer d-flex gap-2 align-items-baseline col-6 col-lg">
+                            <i class="fa-brands fa-css3-alt skill__i skill__i--css"></i>
+                            <p class="skill__p">CSS</p>
+                        </div>
+                        <div class="skill__subcontainer d-flex gap-2 align-items-baseline col-6 col-lg">
+                            <i class="fa-brands fa-sass skill__i skill__i--sass"></i>
+                            <p class="skill__p">Sass</p>
+                        </div>
+                        <div class="skill__subcontainer d-flex gap-2 align-items-baseline col-6 col-lg">
+                            <i class="fa-brands fa-bootstrap skill__i skill__i--bs"></i>
+                            <p class="skill__p">Bootstrap</p>
+                        </div>
+                        <div class="skill__subcontainer d-flex gap-2 align-items-baseline justify-content-lg-center col-6 col-lg">
+                            <i class="fa-brands fa-git-alt skill__i skill__i--git"></i>
+                            <p class="skill__p">Git</p>
+                        </div>
+                        <div class="skill__subcontainer d-flex gap-2 align-items-baseline justify-content-lg-center col-6 col-lg">
+                            <i class="fa-brands fa-github skill__i skill__i--github"></i>                        <p class="skill__p">GitHub</p>
+                        </div>
+                        <div class="skill__subcontainer d-flex gap-2 align-items-baseline justify-content-lg-end col-6 col-lg">
+                            <i class="fa-brands fa-js skill__i skill__i--js"></i>     
+                            <p class="skill__p">JavaScript</p>
+                        </div>
+                        <div class="skill__subcontainer d-flex gap-2 align-items-baseline justify-content-lg-end col-6 col-lg">
+                            <i class="fa-brands fa-vuejs skill__i skill__i--vue"></i>
+                            <p class="skill__p">Vue</p>
+                        </div>
+                        <div id="proyectos"></div>
+
+                    </div>
+                </div>
+            </section>        
+            <section class="project d-flex flex-column justify-content-center align-items-center mt-5 mb-4" >
+                <h2 class="title--h2">Mis proyectos</h2>
+
+                <div class="container col-12 col-lg-8 gap-5 project__container mt-5">
+                    <div class="row">
+                        <div class="project__subcontainer d-flex flex-column col-6 col-lg">
+                            <img src="./assets/img/meetcoffee.png" alt="" class="project__img">
+                            <p class="project__p">Meet & Coffee</p>
+                        </div>
+                        <div class="project__subcontainer d-flex flex-column col-6 col-lg">
+                            <img src="./assets/img/meetcoffee.png" alt="" class="project__img">
+                            <p class="project__p">Meet & Coffee</p>
+                        </div>
+                        <div class="project__subcontainer d-flex flex-column col-6 col-lg">
+                            <img src="./assets/img/meetcoffee.png" alt="" class="project__img">
+                            <p class="project__p">Meet & Coffee</p>
+                        </div>
+                        <div class="project__subcontainer d-flex flex-column col-6 col-lg">
+                            <img src="./assets/img/meetcoffee.png" alt="" class="project__img">
+                            <p class="project__p">Meet & Coffee</p>
+                        </div>
+                    </div>
+                </div>
+
+            <div id="contacto"></div>
+            </section>
+        </main>
+        <footer class="footer d-flex flex-column justify-content-center align-items-center mt-5 mb-5 px-2">
+            <h2 class="title--h2">Contáctame</h2>
+            <div class="footer__content d-flex flex-lg-row flex-column gap-5 justify-content-center col-12 col-lg-8 m-auto mt-5">
+                <section class="footer__container-one">
+                    <form class="form">
+                        <section class="row mt-4">
+                            <div class="col-6 mb-3">
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+                            </div>
+                            <div class="col-6 mb-3">
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Apellido">
+                            </div>
+                        </section>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Tu Email">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" placeholder="Escribe tu mensaje" id="floatingTextarea"></textarea>
+                        </div>
+                        <button type="button" class="mt-1 btn btn-outline-primary bg-primary text-white col-12 col-lg-3 ">Enviar</button>
+
+                    </form>
+                </section>
+                <section class="footer__container-two d-flex align-items-center text-primary">
+                    <div class="contact">
+                        <ul class="contact__ul d-flex flex-column align-items-start">
+                            <li class="contact__li d-flex">
+                                <i class="fa-solid fa-phone contact__i"></i>
+                                <p class="contact__p">+56999887766</p>
+                            </li>
+                            <li class="contact__li d-flex">
+                                <i class="fa-solid fa-envelope contact__i"></i>
+                                <p class="contact__p">tuemail@gmail.com</p>
+                            </li>
+                            <li class="contact__li d-flex">
+                                <i class="fa-brands fa-linkedin contact__i"></i>
+                                <p class="contact__p">tulinkedin</p>
+                            </li>
+                            <li class="contact__li d-flex">
+                                <i class="fa-brands fa-github contact__i"></i>
+                                <p class="contact__p">Tu GitHub</p>
+                            </li>
+                            <li class="contact__li d-flex">
+                                <i class="fa-brands fa-instagram contact__i"></i>
+                                <p class="contact__p">Tu Instagram</p>
+                            </li>
+                        
+                        </ul>
+                    </div>
+                </section>
+            </div>
+            
+        </footer>   
+
+    <script src="https://kit.fontawesome.com/bc0d57a17c.js" crossorigin="anonymous"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

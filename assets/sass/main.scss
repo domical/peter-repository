@@ -1,0 +1,27 @@
+/*
+abstracts/
+vendors/
+base/
+layout/
+components/
+pages/
+themes/
+*/
+
+
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+
+@import 'vendors/bootstrap';
+
+@import 'base/typography';
+
+@import 'layout/footer';
+@import 'layout/header';
+
+@import 'components/contact';
+@import 'components/hero';
+@import 'components/project';
+@import 'components/skill';
+
+@import 'pages/home';

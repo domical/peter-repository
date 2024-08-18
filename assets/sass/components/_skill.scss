@@ -1,0 +1,26 @@
+.skill__intercontainer {
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.skill__i {
+    font-size: 32px;
+    padding-bottom: 16px;
+    align-self: center;
+}
+
+@include skill__i--color("html", $color-html);
+@include skill__i--color("css", $color-css);
+@include skill__i--color("sass", $color-sass);
+@include skill__i--color("bs", $color-bs);
+@include skill__i--color("git", $color-git);
+@include skill__i--color("github", $color-ghub);
+@include skill__i--color("js", $color-js);
+@include skill__i--color("vue", $color-vue);
+
+.skill__p {
+    font-size: 19px;
+    font-weight: 400;
+}
